@@ -39,6 +39,7 @@ body {
 }
 
 #allies {
+    flex-basis: 0;
     flex-grow: 1;
     height: 100%;
     display: flex;
@@ -61,15 +62,16 @@ body {
     height: 100%;
     margin-left: 15px;
     border: 1px solid rgba(255, 255, 255, 0.6);
-    background: rgba(13, 17, 28, 0.4);
+    background: rgba(13, 17, 28, 0.7);
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.8) inset;
 }
 
 #chat {
+    flex-shrink: 1;
     flex-grow: 1;
     height: 100%;
     margin-left: 15px;
     border: 1px solid rgba(255, 255, 255, 0.6);
-    background: rgba(13, 17, 28, 0.4);
+    background: rgba(13, 17, 28, 0.7);
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.8) inset;
 }
