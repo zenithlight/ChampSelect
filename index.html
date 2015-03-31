@@ -1,41 +1,51 @@
 <!DOCTYPE html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="style.css" rel="stylesheet" type="text/css">
         <title>Champion Selection Concept</title>
     </head>
     <body>
         <div id="window">
             <div id="timer"><div id="timerbar"></div></div>
-            <div id="teams"><img src="separator.png" alt="Separator" /></div>
+            <div id="teams"><img src="separator.png" alt="Separator"></div>
             <div id="content">
                 <div id="allies">
-                    <div class="ally">
-                        <img src="blue.png" alt="Unselected" />
-                        <p><span class="name">Player 1</span><br><span class="champion">Jinx</span></p>
+                    <p id="title">Your Team</p>
+                    <div class="ally current">
+                        <img class="portrait" src="blue.png" title="Unselected">
+                        <p>
+                            <span class="name">Player 1</span><br>
+                            <span class="champion">Banning...</span><br>
+                            <span class="info">
+                                <img class="shadow" src="flash.png" title="Flash">
+                                <img class="shadow" src="cleanse.png" title="Cleanse">&nbsp;
+                                <img src="fighter.png" title="Would like to play: Fighter">
+                                <img src="jungle.png" title="Wants to play in: Jungle">
+                            </span>
+                        </p>
                     </div>
                     <div class="ally">
-                        <img src="frame.png" alt="Unselected" />
+                        <img class="portrait" src="frame.png" alt="Unselected">
                         <button></button>
-                        <p><span class="name">Player 1</span><br><span class="champion">Jinx</span></p>
+                        <p><span class="name">Player 2</span><br><span class="champion"></span><br></p>
                     </div>
                     <div class="ally">
-                        <img src="frame.png" alt="Unselected" />
+                        <img class="portrait" src="frame.png" alt="Unselected">
                         <button></button>
-                        <p><span class="name">Player 1</span><br><span class="champion">Jinx</span></p>
+                        <p><span class="name">Player 3</span><br><span class="champion"></span></p>
                     </div>
                     <div class="ally">
-                        <img src="frame.png" alt="Unselected" />
+                        <img class="portrait" src="frame.png" alt="Unselected">
                         <button></button>
-                        <p><span class="name">Player 1</span><br><span class="champion">Jinx</span></p>
+                        <p><span class="name">Player 4</span><br><span class="champion"></span></p>
                     </div>
                     <div class="ally">
-                        <img src="frame.png" alt="Unselected" />
+                        <img class="portrait" src="frame.png" alt="Unselected">
                         <button></button>
-                        <p><span class="name">Player 1</span><br><span class="champion">Jinx</span></p>
+                        <p><span class="name">Player 5</span><br><span class="champion"></span></p>
                     </div>
                 </div>
                 <div id="main"></div>
-                <div id="chat"></div>
+                <div id="right"></div>
             </div>
         </div>
     </body>
