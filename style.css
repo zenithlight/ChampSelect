@@ -25,10 +25,10 @@ body {
 }
 
 #teams {
-    background: rgba(0, 0, 255, 0.5);
     width: 100%;
     height: 85px;
     margin-top: 10px;
+    text-align: center;
 }
 
 #content {
@@ -51,7 +51,7 @@ body {
     margin-left: 15px;
     border: 1px solid rgba(255, 255, 255, 0.6);
     background: rgba(13, 17, 28, 0.4);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8) inset;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.8) inset;
 }
 
 #chat {
@@ -60,9 +60,5 @@ body {
     margin-left: 15px;
     border: 1px solid rgba(255, 255, 255, 0.6);
     background: rgba(13, 17, 28, 0.4);
-    box-shadow: 0 0px 16px rgba(0, 0, 0, 0.8) inset;
-}
-
-.panel {
-
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.8) inset;
 }
